@@ -5,9 +5,9 @@
 }
 
 .img {
-  width: 70%;
-  height: 400px;
-  object-fit: cover;
+  width: 1000px;
+  height: 400px;       /* REQUIRED */
+  object-fit: cover;   /* REQUIRED */
 }
 
 .btn {
