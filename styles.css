@@ -1,19 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .hero {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 40px;
 }
 
-.img {
-  width: 1000px;
-  height: 400px;       /* REQUIRED */
-  object-fit: cover;   /* REQUIRED */
+.hero-img {
+  width: 50%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.content {
+  width: 40%;
 }
 
 .btn {
-  padding: 10px 20px;
-  background-color: #fe0100;
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #ff0002;
   color: white;
   border-radius: 5px;
-  border: none;
+  text-decoration: none;
 }
